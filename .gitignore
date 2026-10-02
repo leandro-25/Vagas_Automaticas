@@ -1,0 +1,51 @@
+# ===================== SEGREDOS E DADOS PESSOAIS =====================
+groq_key.txt
+cv_text.txt
+perfil_cv.txt
+.env
+*.key
+
+# ===================== BUSCA DE VAGAS (BLOQUEADO) =====================
+# Apenas a interface (app.py, busca.py, match.py) é versionada.
+# Scrappers avulsos por board / cópias de teste ficam fora do repositório.
+gupy.py
+hays.py
+indeed.py
+infojobs.py
+inhire.py
+jobconvo.py
+manpowergroup.py
+michael-page.py
+page-personnel.py
+roberthalf.py
+solides.py
+abler.py
+1 copy.py
+busca.py
+# ===================== ARTEFATOS DE DEBUG =====================
+debug_*.html
+*.log
+
+# ===================== PYTHON =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# ===================== IDE / SO =====================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
